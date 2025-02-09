@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Valentine? | Joshua Bodin</title>
+        <link rel="stylesheet" href="valentine.css" />
+    </head>
+    <body>
+        <div id="v5" class="section open">
+            <img class="val-image" src="heart.gif" alt="image of a heart bouncing up and down">
+            <img id="f1" class="final-image closed" src="kiss.gif" alt="yayyyy">
+            <img id="f2" class="final-image closed" src="sad.gif" alt="sad bear...">
+        </div>
+
+        <!-- General Containers -->
+        <div id="v1" class="container open">
+            <div id="c1" class="main-text">I have a question, are you ready?</div>
+            <div id="c2" class="main-text closed">Will You Be My Valentine?</div>
+        </div>
+
+        <!-- First Part -->
+        <div id="v2" class="section open">
+            <div id="i1" class="btn yes"><span>Yes</span></div>
+            <div id="i2" class="btn no"><span>No</span></div>
+        </div>
+
+        <!-- Second Part -->
+        <div id="v3" class="section closed">
+            <span id="i3" class="btn yes">Yes</span>
+            <span id="i4" class="btn no">No</span>
+        </div>
+
+        <!-- Third Part -->
+        <div id="v4" class="section closed"></div>
+            <div class="final-text closed">YAYYYY</div>
+            <div class="final-text closed">Aw... Okay</div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            document.on("ready", function(){
+                a=$("#i1");b=$("#i2");c=$("#i3");d=$("#i4");
+                e=$("#c1");f=$("#c2");l=$("#f1");m=$("#f2");
+                g=$("#v1");h=$("#v2");j=$("#v3");k=$("#v4");
+
+                a.on("click", function() {
+
+                });
+            });
+        </script>
+    </body>
+</html>
